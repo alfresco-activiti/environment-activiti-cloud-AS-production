@@ -29,7 +29,7 @@ global:
   gateway:
     annotations:
       certmanager.k8s.io/issuer: letsencrypt-prod
-    domain: REPLACEME
+    domain: a7as.com
     host: activiti-cloud-gateway.{{ .Release.Namespace }}.{{ template "common.gateway-domain"
       . }}
     http: "true"
